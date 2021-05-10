@@ -12,6 +12,11 @@ Registrator = "4418983a-e44d-11e8-3aec-9789530b3b3e"
 
 [compat]
 julia = "1.6"
+Documenter = "0.26"
+DocumenterTools = "0.1"
+Literate = "2.8"
+Pluto = "0.14"
+Registrator = "1.2"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
