@@ -52,6 +52,7 @@ jobs:
             using QznbTestPackage
             DocMeta.setdocmeta!(QznbTestPackage, :DocTestSetup, :(using QznbTestPackage); recursive=true)
             doctest(QznbTestPackage)'
+      - run: git config --global init.defaultBranch main
       - run: julia --project=docs docs/make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
