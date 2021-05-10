@@ -1,5 +1,12 @@
 module QznbTestPackage
 
-# Write your package code here.
+export hello
+
+"""
+    hello(who::String)
+
+Return "Hello, `who`".
+"""
+hello(who::String) = "Hello, $who"
 
 end

@@ -3,6 +3,11 @@ uuid = "4ca4393d-ad51-4f86-8eb0-8ff440a06dc6"
 authors = ["qz-michael <michael@quartznotebook.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
+Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
+
 [compat]
 julia = "1.6"
 
