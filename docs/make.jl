@@ -20,4 +20,5 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/qz-michael/QznbTestPackage.jl",
+    devbranch = "main"
 )
