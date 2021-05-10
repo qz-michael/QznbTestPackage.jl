@@ -19,6 +19,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/qz-michael/QznbTestPackage.jl",
-    devbranch = "main"
+    devbranch = "main",
+    repo="github.com/qz-michael/QznbTestPackage.jl"
 )
